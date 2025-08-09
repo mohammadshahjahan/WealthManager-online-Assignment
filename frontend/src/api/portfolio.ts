@@ -1,7 +1,7 @@
 // src/api/portfolio.ts
 import axios from "axios";
 
-const API_BASE = "http://localhost:8080/api/portfolio";
+const API_BASE = "https://wealthmanager-online-assignment.onrender.com/api/portfolio";
 
 export interface Holding {
   symbol: string;
